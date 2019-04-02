@@ -1,6 +1,6 @@
 # atividade-02-identidade-imutabilidade-validade-sobrecarga
 
-_Classroom link:_ <https://classroom.github.com/a/?>
+_Classroom link:_ <https://classroom.github.com/a/Ti-_ZVrw>
 
 ## Modelar e implementar respeitando os princípios de Orientação a Objetos
 
