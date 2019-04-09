@@ -62,9 +62,9 @@ public class MainDecorrido {
 		}
 		
 		// até aqui 0.2
-		/*
 		// toString
 		System.out.println(ts1); // deve imprimir 5 hours, 9 minutes e 50 seconds
+		
 		System.out.println(ts1.toString().equals("5 hours, 9 minutes e 50 seconds"));
 		TimeSpan ts2 = new TimeSpan(1, 12, 45, 1);
 		System.out.println(ts2.toString().equals("1 day, 12 hours, 45 minutes e 1 second"));
@@ -75,22 +75,25 @@ public class MainDecorrido {
 		ts3 = new TimeSpan(0, 0, 25, 0);
 		System.out.println(ts3.toString().equals("25 minutes"));
 		// toString em português
+		
 		System.out.println(ts1.toString("pt").equals("5 horas, 9 minutos e 50 segundos"));
 		System.out.println(ts2.toString("pt")); //1 dia, 12 horas, 45 minutos e 1 segundo
 		System.out.println(ts2.toString("pt").equals("1 dia, 12 horas, 45 minutos e 1 segundo"));
 		System.out.println(ts3.toString("pt").equals("25 minutos"));
 		// até aqui 0.3
-
+		
 		// equals, greaterThan, lessThan (igual, maior que, menor que)
 		TimeSpan ts4 = new TimeSpan(1, 12, 45, 1);
 		System.out.println(ts2.equals(ts4) == true);
 		System.out.println(ts4.equals(ts2) == true);
 		System.out.println(ts4.equals(ts3) == false);
+		
 		System.out.println(ts4.greaterThan(ts3) == true);
+		
 		System.out.println(ts4.lessThan(ts3) == false);
 		System.out.println(ts3.lessThan(ts2) == true);
 		System.out.println(ts4.lessThan(ts2) == false);
-		System.out.println(ts4.greaterThan(ts2) == false);*/
+		System.out.println(ts4.greaterThan(ts2) == false);
 		// até aqui 0.4
 	}
 
