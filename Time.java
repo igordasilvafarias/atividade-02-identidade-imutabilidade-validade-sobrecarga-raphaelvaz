@@ -14,6 +14,10 @@ public class Time {
 		while(seconds > 86400) seconds -= 86400;
 		this.seconds = seconds;
 	}
+	Time subTime(Time t) {
+		if(this.seconds < t.seconds) return new Time(0,0,t.seconds - this.seconds);
+		return new Time(0,0,(86400 + t.seconds) - this.seconds);
+	}
 	
 	int getSeconds() {
 		if(this.seconds > 3600) return this.seconds%60%60%60;
