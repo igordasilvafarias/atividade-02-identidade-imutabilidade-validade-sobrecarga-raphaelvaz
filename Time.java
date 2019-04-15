@@ -4,6 +4,9 @@ public class Time {
 	Time(){
 		this.seconds = 0;
 	}
+  Time(int h){
+    this(h,0,0);
+  }
 	Time(int h, int m){
 		this(h,m,0);
 	}
